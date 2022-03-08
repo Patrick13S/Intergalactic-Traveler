@@ -13,6 +13,7 @@
 		42C84F6827D6A096000D0FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C84F6627D6A096000D0FD2 /* Main.storyboard */; };
 		42C84F6A27D6A098000D0FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C84F6927D6A098000D0FD2 /* Assets.xcassets */; };
 		42C84F6D27D6A098000D0FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C84F6B27D6A098000D0FD2 /* LaunchScreen.storyboard */; };
+		42C84F7527D7F5BB000D0FD2 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C84F7427D7F5BB000D0FD2 /* StarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42C84F6927D6A098000D0FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42C84F6C27D6A098000D0FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42C84F6E27D6A098000D0FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C84F7427D7F5BB000D0FD2 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				42C84F6227D6A096000D0FD2 /* SceneDelegate.swift */,
 				42C84F6427D6A096000D0FD2 /* ViewController.swift */,
 				42C84F6627D6A096000D0FD2 /* Main.storyboard */,
+				42C84F7427D7F5BB000D0FD2 /* StarViewController.swift */,
 				42C84F6927D6A098000D0FD2 /* Assets.xcassets */,
 				42C84F6B27D6A098000D0FD2 /* LaunchScreen.storyboard */,
 				42C84F6E27D6A098000D0FD2 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C84F7527D7F5BB000D0FD2 /* StarViewController.swift in Sources */,
 				42C84F6527D6A096000D0FD2 /* ViewController.swift in Sources */,
 				42C84F6127D6A096000D0FD2 /* AppDelegate.swift in Sources */,
 				42C84F6327D6A096000D0FD2 /* SceneDelegate.swift in Sources */,
