@@ -15,14 +15,23 @@
                     <view key="view" contentMode="scaleToFill" id="QAl-J5-Pu4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qSr-p7-owI">
+                                <rect key="frame" x="81" y="200" width="253" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="awE-gE-JF9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="McB-bX-ajZ"/>
+                    <connections>
+                        <outlet property="starImage" destination="qSr-p7-owI" id="OfB-X2-iUJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cS-MQ-g4N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1529" y="62"/>
+            <point key="canvasLocation" x="1528.985507246377" y="61.607142857142854"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -36,16 +45,19 @@
                                 <rect key="frame" x="127" y="257" width="161" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain" title="Blue stars">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="evB-8z-RTp" kind="show" identifier="blueSegue" id="a6o-Y6-93T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqX-gr-pHV">
                                 <rect key="frame" x="127" y="122" width="161" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain" title="Red stars">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </backgroundConfiguration>
@@ -83,6 +95,9 @@
             <point key="canvasLocation" x="76.811594202898561" y="61.607142857142854"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="a6o-Y6-93T"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
